@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Test API </title>
+            <h3> 
+                Jennifer / Wadie </h3> 
+    
+        <script src = "TestAPI.js"></script>
+        
+        <style>
+            body {
+                font-size: 20px
+            }
+            h1 { 
+                color: brown
+            }
+        
+            #results {
+                display: none;
+                border: brown 2px solid;
+                width: 400px;
+                padding: 10px;
+            }
+            
+            button {
+                width: 150px;
+                font-size: 28px;
+                color:burlywood
+            }
+        </style>
+    </head>
+    <body onload = "TestAPI.initModule()">
+        <h1>Test API</h1>
+        <div>
+            Click button to call The API: 
+            <p/>
+            <button id = "cmdOther">GetPicture</button>
+        </div>
+        <img id="results" />
+    
+    </body>
+</html>
